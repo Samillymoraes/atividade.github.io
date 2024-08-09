@@ -1,0 +1,109 @@
+.todo{
+    background-image: url(Background.png);
+}
+.tudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+
+}
+.lado1{
+    color:  #D6D6F2;
+    font: Outfit;
+    width: 50vw;
+    display: flex;
+    justify-content: center;    
+}
+.lado01{
+    width: 25vw;
+    height: 28vh;
+}
+.numeros{
+    display: flex;
+   
+}
+
+#saturno{
+    width: 20vw;
+}
+#part1{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+#part2{
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 3vw;
+}
+
+#voltar{
+    width: 7vw;
+    height: 5vh;
+    padding: 12px 24px 12px 24px;
+    border-radius: 999px;
+    background: #151557;
+    border: #151557;
+    color: #E2E2F5;
+    margin-top: 3vw;
+
+    
+}
+
+#IR{
+    width: 11vw;
+    height: 5vh;
+    padding: 12px 24px 12px 24px;
+    border-radius: 999px;
+    background: #151557;
+    border: #151557;
+    color: #E2E2F5;
+}
+
+@media screen and (max-width: 768px){
+    .tudo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .lado1{
+        width: 100vw;
+        height: 50vh;
+
+    }
+    .lado01{
+        width: 80vw;
+        height: 50vh;
+    }
+    .botao{
+        display: flex;
+        align-items: baseline;
+        margin-top: 20px;
+    }
+
+    #voltar{
+        width: 28vw;
+        margin: 15px;
+    }
+    #IR{
+        width: 40vw;
+    }
+    #saturno{
+        width: 55vw;
+    }
+    #part1{
+        font-size: 30px;
+    }
+    #part2{
+        font-size:18px;
+    }
+
+   
+}
